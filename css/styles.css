@@ -20,6 +20,7 @@ h2 {
 h3 {
     font-family: 'Lobster', cursive;
     text-decoration: underline;
+    color: white;
 }
 
 h4 {
@@ -34,16 +35,13 @@ p {
 /* Home Section */
 
 #home {
-    background-color: #273b65;
     background-image: linear-gradient(#0b174d, #16266b, #2e45a6);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .navbar-brand {
     font-family: 'Lobster', cursive;
     font-size: 1.8rem;
+    color: #0b174d;
 }
 
 .container-fluid {
@@ -67,18 +65,19 @@ p {
 }
 
 .title-icon {
-    color: #0b174d;
+    color: white;
     margin-bottom: 1rem;
 }
 
 .title-icon:hover {
-    color: white;
+    color: #0b174d;
 }
 
 /* Flowers Section */
 
 #flowers {
     padding: 7% 0;
+    background-color: #5d6db4;
 }
 
 .card {
@@ -106,21 +105,32 @@ p {
     visibility: visible;
 }
 
+.card p {
+    color: black;
+}
+
 /* Trees Section */
 
 #trees {
     padding: 7% 0;
-    background-color: #273b65;
+    background-color: #334d85;
 }
+
+
 
 /* Credits Section */
 
 #credits {
-    color: #273b65;
+    background-color: #12205f;
+    color: white;
     text-align: center;
 }
 
 .footer-icon {
-    margin: 0 1% 0 0;
-    color: #273b65;
+    margin: 0 0 0 1%;
+    color: white;
+}
+
+.footer-icon:hover {
+    color: lightblue;
 }
