@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +12,7 @@
 
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Kumar+One+Outline&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Press+Start+2P&family=Lobster&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="css/images/favicon (2).ico">
@@ -21,87 +22,148 @@
 
     <title>Plant the Planet</title>
   </head>
+
   <body>
 
     <section id="home">
 
         <!-- nav bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">P / P</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">Home</a>
+                        <a class="nav-link" href="#flowers">Flowers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Trees</a>
+                        <a class="nav-link" href="#news">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">News</a>
+                        <a class="nav-link" href="#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">FAQ</a>
+                        <a class="nav-link" href="#credits">Credits</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Credits</a>
-                    </li>
-                    <button type="button" class="btn btn-outline-secondary" style="margin:0px 15px;"><i class="fas fa-gamepad"></i>   Pixelate!</button>
                 </ul>
             </div>
         </nav>
 
-        <!-- title -->
-        <div class="title-and-img">
+        <!-- title and Earth image -->
+        <div class="title-container">
             <h1>Plant the Planet</h1>
-            <img class="earth-img" src="css/images/earth.png" alt="">
+            <button type="button" class="btn btn-outline-secondary"><i class="fas fa-gamepad"></i> Pixelate!</button>
+            <img class="earth-img" src="images/earth.png" alt="">
+        </div>
+
+        <!-- catch phrases -->
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="title-icon fas fa-seedling fa-4x"></i>
+                <h3>Plant.</h3>
+                <p>Start the new life for the Earth.</p>
+            </div>
+           
+            <div class="feature-box col-lg-4">
+                <i class="title-icon fas fa-tint fa-4x"></i>
+                <h3>Grow.</h3>
+                <p>Support our planet Earth to expand its "lung".</p>
+            </div>
+            
+            <div class="feature-box col-lg-4">
+                <i class="title-icon fas fa-globe-americas fa-4x"></i>
+                <h3>Make.</h3>
+                <p>With the little dirts on our hands, we can make our hope for future together.</p>
+            </div>
         </div>
 
     </section>
 
-    <section id="trees">
-        <div class="container-fluid" style ="background-color: #ff7171;">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:#caf7e3; border: 1px solid;">
-                감자
+    <section id="flowers">
+
+        <h2>Flowers</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="flower-card col-lg-3 col-md-4 col-sm-6" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/peach-tree.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Peach Tree</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flower-card col-lg-3 col-md-4 col-sm-6" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/tulip.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Tulip</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flower-card col-lg-3 col-md-4 col-sm-6" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/magnolia.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Magnolia</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flower-card col-lg-3 col-md-4 col-sm-6" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/dahlia.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Dahlia</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flower-card col-lg-3 col-md-4 col-sm-6" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/sunflower.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Sunflower</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:#caf7e3; border: 1px solid;">
-                감자
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:#caf7e3; border: 1px solid;">
-                감자
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:#caf7e3; border: 1px solid;">
-                감자
-            </div>
-        </div>
         </div>
 
     </section>
 
     <section id="news">
-        
-        <div class="row">
-            <div class="feature-box col-lg-4">
-                <i class="icon fas fa-hamburger fa-4x"></i>
-                <h3>Easy to use.</h3>
-                <p>SO easy to use, even you dog can do it.</p>
-            </div>
-           
-            <div class="feature-box col-lg-4">
-                <i class="icon fas fa-egg fa-4x"></i>
-                <h3>Easy to use.</h3>
-                <p>SO easy to use, even you dog can do it.</p>
-            </div>
-            
-            <div class="feature-box col-lg-4">
-                <i class="icon fas fa-bread-slice fa-4x"></i>
-                <h3>Easy to use.</h3>
-                <p>SO easy to use, even you dog can do it.</p>
+
+        <h2>News</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="news-card col-lg-4 col-md-6 col-sm-12" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/peach-tree.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Peach Tree</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card col-lg-4 col-md-6 col-sm-12" >
+                    <div class="card">
+                        <img class="card-img" src="flowers/peach-tree.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Peach Tree</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
+        
         <div class="container-fluid" style = "background-color: #fbe6c2;">
             <p>
                 국가는 지역간의 균형있는 발전을 위하여 지역경제를 육성할 의무를 진다. 모든 국민은 인간다운 생활을 할 권리를 가진다. 그 의결은 국회재적의원 과반수의 찬성이 있어야 한다. 대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다.
@@ -123,6 +185,11 @@
                 국가는 지역간의 균형있는 발전을 위하여 지역경제를 육성할 의무를 진다. 모든 국민은 인간다운 생활을 할 권리를 가진다. 그 의결은 국회재적의원 과반수의 찬성이 있어야 한다. 대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다.
             </p>
         </div>
+        Sunflower Photo by <a href="https://unsplash.com/@pgreen1983?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Green</a> on <a href="/s/photos/flower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Dahlia Photo by <a href="https://unsplash.com/@laurarain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Crowe</a> on <a href="/s/photos/dahlia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Magnolia Photo by <a href="https://unsplash.com/@cdib925?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina DiBernardo</a> on <a href="/s/photos/magnolia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Peach Tree Photo by <a href="https://unsplash.com/@na_photo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nagy Arnold</a> on <a href="/s/photos/tree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Tulip Photo by <a href="https://unsplash.com/@gemini_zucha89?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kwang Mathurosemontri</a> on <a href="/s/photos/flower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </section>
     
 

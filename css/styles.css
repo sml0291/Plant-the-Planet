@@ -1,41 +1,53 @@
-/* Home Section */
-#home {
-    font-family: 'Capriola', sans-serif;
-    background-color: #273b65;
-}
-
-.nav-link {
-    font-size: 1.2rem;
-   
-}
-
 h1 {
-    /* font-family: 'Kumar One Outline', cursive; */
     /* font-family: 'Press Start 2P', cursive; */
     /* font-family: 'Capriola', sans-serif; */
+    font-family: 'Lobster', cursive;
     color: white;
     font-size: 3rem;
     line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    color: #0b174d;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    color: #ececec;
+}
+
+
+/* Home Section */
+
+#home {
+    font-family: 'Capriola', sans-serif;
+    background-color: #273b65;
+    background-image: linear-gradient(#0b174d, #16266b, #2e45a6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-.title-and-img {
+.title-container {
     text-align: center;
     padding: 5em;
 }
 
 .earth-img {
-    padding: 5em;
-}
-
-/* Trees Section */
-
-/* News Section */
-#news {
-    padding: 7% 15%;
+    display: block;
+    margin: 5rem auto;
+    width: 50%;
 }
 
 .feature-box {
@@ -43,22 +55,56 @@ h1 {
     padding: 5%;
 }
 
-h3 {
-    font-family: monospace;
-}
-
-p {
-    color: #8f8f8f;
-}
-
-.icon {
-    color: #ffaec0;
+.title-icon {
+    color: #0b174d;
     margin-bottom: 1rem;
 }
 
-.icon:hover {
-    color: #ff4c68;
+.title-icon:hover {
+    color: white;
 }
+
+/* Flowers Section */
+
+#flowers {
+    padding: 7% 0;
+}
+
+.card {
+    height: 90%;
+    overflow: hidden;
+}
+
+.card img {
+    transition: transform .4s, filter 1.5s ease-in-out;    
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.card:hover img {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+.card-img-overlay>h5, .card-img-overlay>p{
+    visibility:hidden;
+}
+
+.card-img-overlay:hover h5, .card-img-overlay:hover p{
+    visibility: visible;
+}
+
+/* 
+.flower-card {
+    margin-bottom: 3%;
+} */
+
+/* News Section */
+#news {
+    padding: 7% 15%;
+}
+
 
 /* FAQ Section */
 
