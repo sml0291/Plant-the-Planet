@@ -38,15 +38,35 @@ When users hover on each card, the spice's photo would be enlarged and shaded, a
 
 (4) Credits
 
-Other than the ones that are specifically mentioned that no credit is necessary (such as Font Awesome), we listed out all resources in our credit page. 
+Other than the ones that are specifically mentioned that no credit is necessary (such as Font Awesome), we listed out all resources in our credit page. These resources, of course, are only relevant for "raw materials", such as photos and information about endangered spices. All codings are written by our team, Gloria Kim and Sung Min Lim.
 
 
 ## How we built it
 
+On the first day, we spent the entire day to learn the new skills. While we are aware of HTML, we were not an expert of using Bootstrap, JavaScript and jQuery, so we needed to study these materials. 
+
+After that, we drew a wireframe of our website using a pen and a paper. Gloria was the main designer, and Sung added some interseting ideas, such as the button "Pixelate!" Then, Sung started to code the entire HTML and half of CSS and Bootstrap, and Gloria finalized the webpage using Bootstrap and some of JavaScript and jQuery. 
+
+As a back-up, we commited our project on GitHub time to time.
+
+
 ## Challenges we ran into
+
+(1) It was difficult to find a good tool to convert a png image into a pixelated image for free. We ended up using the not-so-perfectly-pixelated image.
+
+(2) Because we had limited time, we did not have enough time to learn much of JavaScript and jQuery. We decided to use them minimally and complete the project for now, but we could have improved our coding if we knew how to use the for loop in JavaScript/jQuery.
+
 
 ## Accomplishments that we're proud of
 
+Sung is submitting the Hackaton project for the first time, and we're very happy that we completed all the parts we planned together! We're also proud that we listened to 20+ lectures to study deeper in CSS and JavaScript. And the idea of the pixelated button was neat. :)
+
+
 ## What we learned
 
+We learned to use Visual Studio Code that allows us to run the live demo. We also learned about additional Bootstrap libraries and actual applications. While we did not have enough time to deeply learn about JavaScript and jQuery, we still managed to use at least some portions of them. 
+
+
 ## What's next for Plant the Planet
+
+We hope to improve the logic. Rather than writing each plant, we are hoping to use a for loop to generate the repetitive parts if that is possibel in JavaScript (and we're pretty sure it would be).
