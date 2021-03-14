@@ -1,0 +1,26 @@
+/* Home Section */
+
+.navbar-brand {
+    /* font-family: 'Kumar One Outline', cursive; */
+    /* font-family: 'Capriola', sans-serif; */
+    /* font-family: 'Press Start 2P', cursive; */
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Capriola', sans-serif; */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Trees Section */
+
+/* News Section */
+
+/* FAQ Section */
+
+/* Credits Section */
