@@ -51,8 +51,8 @@
         <!-- title and Earth image -->
         <div class="title-container">
             <h1>Plant the Planet</h1>
-            <button type="button" class="btn btn-outline-secondary"><i class="fas fa-gamepad"></i> Pixelate!</button>
-            <img class="earth-img" src="images/earth.png" alt="">
+            <p><button type="button" class="btn btn-outline-secondary" onClick="pictureChange()"><i class="fas fa-gamepad"></i> Pixelate!</button></p>
+            <img id="pixel-img" class="earth-img" src="images/earth.png" alt="">
         </div>
 
         <!-- catch phrases -->
@@ -75,7 +75,7 @@
                 <p>With the little dirts on our hands, we can make our hope for future together.</p>
             </div>
         </div>
-
+        
     </section>
 
     <section id="flowers">
@@ -184,6 +184,8 @@
                 <a href = "mailto:sunglim@my.unt.edu"><i class="footer-icon fas fa-envelope"></i></a></h4>
             <br><br>
             <h3>Credits</h3>
+            <h4>Earth Abstract Vector by <a href="https://www.freepik.com/vectors/abstract">Freepik</a></h4>
+            <h4>YouTube Video by <a href=https://www.youtube.com/channel/UCSpVHeDGr9UbREhRca0qwsA>Howcast</a></h4>
             <h4>Sunflower Photo by <a href="https://unsplash.com/@pgreen1983?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Green</a> on <a href="/s/photos/flower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h4>
             <h4>Dahlia Photo by <a href="https://unsplash.com/@laurarain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Crowe</a> on <a href="/s/photos/dahlia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h4>
             <h4>Magnolia Photo by <a href="https://unsplash.com/@cdib925?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina DiBernardo</a> on <a href="/s/photos/magnolia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h4>
@@ -201,9 +203,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
