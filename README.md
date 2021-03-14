@@ -34,11 +34,11 @@ The main content of this website is the list of endangered species that are grou
 
 The contents are also responsive. On a computer-sized screen, four cards would be displayed. On a tablet-sized screen, three cards would be displayed. On a phone-sized screen, two cards would be displayed. 
 
-When users hover on each card, the spice's photo would be enlarged and shaded, and the spice's name and short description would appear. Users can also click on each card to see the detailed description. 
+When users hover on each card, the species's photo would be enlarged and shaded, and the species's name and short description would appear. Users can also click on each card to see the detailed description. 
 
 (4) Credits
 
-Other than the ones that are specifically mentioned that no credit is necessary (such as Font Awesome), we listed out all resources in our credit page. These resources, of course, are only relevant for "raw materials", such as photos and information about endangered spices. All codings are written by our team, Gloria Kim and Sung Min Lim.
+Other than the ones that are specifically mentioned that no credit is necessary (such as Font Awesome), we listed out all resources in our credit page. These resources, of course, are only relevant for "raw materials", such as photos and information about endangered species. All codings are written by our team, Gloria Kim and Sung Min Lim.
 
 
 ## How we built it
