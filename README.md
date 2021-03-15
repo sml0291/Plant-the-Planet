@@ -1,8 +1,8 @@
 # Plant the Planet
 
-## Video
+## 2-Minute Demo
 
-<iframe width="993" height="538" src="https://www.youtube.com/embed/i-QtezgN_to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![YouTube Demo for Plant the Planet](https://user-images.githubusercontent.com/68700599/111118562-f16b4780-8536-11eb-92e4-ce5dc383ecac.PNG)](https://www.youtube.com/watch?v=i-QtezgN_to)
 
 ## Final Version
 
