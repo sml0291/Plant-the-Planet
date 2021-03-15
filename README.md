@@ -1,17 +1,21 @@
 # Plant the Planet
 
+
 ## 2-Minute Demo (External Link to YouTube)
 
-[![YouTube Demo for Plant the Planet](https://user-images.githubusercontent.com/68700599/111118562-f16b4780-8536-11eb-92e4-ce5dc383ecac.PNG)](https://www.youtube.com/watch?v=i-QtezgN_to)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i-QtezgN_to/0.jpg)](https://www.youtube.com/watch?v=i-QtezgN_to)
 
-## Final Version
+
+## Final Version of Website
 
 https://sml0291.github.io/plant-the-planet/.
 
 
 ## MLH Submission 
 
+https://devpost.com/software/plant-the-planet-nyadtz
+
+The below links are detailed event description of MLH:
 https://organize.mlh.io/participants/events/6532-tidy-the-hack-up
 https://tidy-the-hack-up.devpost.com
 
