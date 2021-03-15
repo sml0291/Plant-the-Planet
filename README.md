@@ -1,6 +1,6 @@
 # Plant the Planet
 
-## 2-Minute Demo
+## 2-Minute Demo (External Link to YouTube)
 
 [![YouTube Demo for Plant the Planet](https://user-images.githubusercontent.com/68700599/111118562-f16b4780-8536-11eb-92e4-ce5dc383ecac.PNG)](https://www.youtube.com/watch?v=i-QtezgN_to)
 
