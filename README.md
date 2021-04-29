@@ -8,7 +8,7 @@
 
 ## Final Version of Website
 
-https://sml0291.github.io/plant-the-planet/.
+https://sml0291.github.io/website-plant-the-planet/
 
 
 ## MLH Submission 
